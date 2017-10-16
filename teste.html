@@ -3,29 +3,22 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Meu novo website - v 0.2</title>
-    <style type="text/css">
-    div{
-        width: 800px;
-        height: 600px;
-        display:inline-block;
-        vertical-align: top;
-        background-size:cover;
-        background-position:50% 50%;
-    }
 
-    div img{
-        width: 100%;
-        height: 100%;
-        opacity: 0;
-        /* OLD IE */
-        zoom: 1;
-        filter: alpha(opacity=0);
-    }
+    <style type="text/css">
+#centro {
+    width:600px;
+    /*height:;*/
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-top:-50px;
+    margin-left:-50px;
+}
     </style>
 </head>
 <body>
-    <div style="background-image:url(imagens/logo.png)">
-        <img src="imagens/logo.png" />
+    <div>
+        <img src="http://www.devplus.com.br/imagens/logo.png" id="centro" />
 	</div>
 </body>
 </html>
