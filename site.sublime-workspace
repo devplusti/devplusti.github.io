@@ -523,7 +523,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 32243,
+				"buffer_size": 21952,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -536,10 +536,18 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 375.0,
-		"last_filter": "sort",
+		"height": 164.0,
+		"last_filter": "upp",
 		"selected_items":
 		[
+			[
+				"upp",
+				"Convert Case: Upper Case"
+			],
+			[
+				"pack",
+				"Preferences: Package Control Settings – Default"
+			],
 			[
 				"sort",
 				"Sort Lines"
@@ -591,10 +599,6 @@
 			[
 				"packe",
 				"Package Control: Upgrade Package"
-			],
-			[
-				"upp",
-				"Convert Case: Upper Case"
 			],
 			[
 				"alig",
@@ -827,10 +831,6 @@
 			[
 				"rang",
 				"Text Pastry: Range"
-			],
-			[
-				"pack",
-				"Package Control: List Packages"
 			],
 			[
 				"edit",
@@ -1083,8 +1083,17 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/home/esbaptista/works/devplus/site",
+		"/home/esbaptista/works/devplus/site/assets",
+		"/home/esbaptista/works/devplus/site/assets/php"
+	],
 	"file_history":
 	[
+		"/home/esbaptista/works/devplus/site/assets/php/mail.php",
+		"/home/esbaptista/works/devplus/site/assets/js/functions.js",
+		"/home/esbaptista/.config/sublime-text-3/Packages/Package Control/Package Control.sublime-settings",
 		"/home/esbaptista/works/cipec/desenho.prg",
 		"/home/esbaptista/works/cipec/apresent.prg",
 		"/home/esbaptista/works/cipec/acerta_custo.prg",
@@ -1209,20 +1218,18 @@
 		"/home/elton/works/libgeral/saveenv.prg",
 		"/home/elton/works/libgeral/funemail.prg",
 		"/home/elton/works/libgeral/aguarde.prg",
-		"/home/elton/works/libgeral/arq_brow.prg",
-		"/home/elton/works/cipec/errorsys.prg",
-		"/home/elton/works/libgeral/waiton.prg",
-		"/home/elton/works/cipec/repi.prg"
+		"/home/elton/works/libgeral/arq_brow.prg"
 	],
 	"find":
 	{
-		"height": 26.0
+		"height": 38.0
 	},
 	"find_in_files":
 	{
 		"height": 101.0,
 		"where_history":
 		[
+			""
 		]
 	},
 	"find_state":
@@ -1230,6 +1237,17 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Feat",
+			"serviços",
+			"An error occured. Please try again later.",
+			"session_start",
+			"session",
+			"session_start",
+			"contact",
+			"logo.",
+			"twilli",
+			"bem vindo",
+			"nosso site"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -1256,23 +1274,28 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 32243,
+						"buffer_size": 21952,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								12448,
+								12448
 							]
 						],
 						"settings":
 						{
+							"rulers":
+							[
+								35.9,
+								36.2
+							],
 							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 3425.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -1283,7 +1306,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 26.0
+		"height": 27.0
 	},
 	"input":
 	{
@@ -1332,7 +1355,7 @@
 	"project": "site.sublime-project",
 	"replace":
 	{
-		"height": 48.0
+		"height": 50.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1864,7 +1887,7 @@
 		[
 			[
 				"",
-				"/home/elton/works/semetra/semetra.sublime-project"
+				"~/works/cipec/cipec.sublime-project"
 			]
 		],
 		"width": 380.0
@@ -1897,7 +1920,7 @@
 	"show_minimap": false,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": false,
+	"side_bar_visible": true,
 	"side_bar_width": 220.0,
 	"status_bar_visible": true,
 	"template_settings":
